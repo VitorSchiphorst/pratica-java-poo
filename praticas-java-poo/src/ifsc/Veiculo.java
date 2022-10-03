@@ -2,9 +2,6 @@ package ifsc;
 
 public class Veiculo {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+		public String marca;
+		public String modelo;
 }

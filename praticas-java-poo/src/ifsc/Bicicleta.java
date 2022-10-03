@@ -1,5 +1,7 @@
 package ifsc;
 
-public class Bicicleta {
-
+	public class Bicicleta extends Veiculo {
+		
+		public void acelerar() {
+		}
 }
