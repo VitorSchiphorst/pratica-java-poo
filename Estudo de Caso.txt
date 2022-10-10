@@ -1,0 +1,28 @@
+Loja de Carro
+
+Classe Opção Venda
+{Trocar/Vender/Comprar}
++Vender = Especificações;Valor
++Trocar = Trocar por um carro =< Valor
++Comprar = Buscar carro;Valor desejado
+
+Classe Automóvel
+{Cor;Tipo Automóvel;Placa}
+
+-> Carro
+{Modelo;Tipo;Ano;Marca}
+
+-> Caminhão
+{Modelo;Tipo;Ano;Marca}
+
+-> Moto
+{Modelo;Tipo;Ano;Marca}
+
+-> Tipo Especificação
+{Esportivo;Popular;Elétrico}
+
+-> Tipo Utilizado
+{Novo;Semi-Novo;Usado}
+
+
+                 -> Nome de motos/carros/caminhões
