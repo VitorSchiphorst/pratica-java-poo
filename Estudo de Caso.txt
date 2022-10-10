@@ -12,9 +12,6 @@ Classe Automóvel
 -> Carro
 {Modelo;Tipo;Ano;Marca}
 
--> Caminhão
-{Modelo;Tipo;Ano;Marca}
-
 -> Moto
 {Modelo;Tipo;Ano;Marca}
 
