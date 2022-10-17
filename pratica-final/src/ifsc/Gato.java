@@ -2,7 +2,7 @@ package ifsc;
 
 public class Gato extends Animal {
 	
-	public void mia() {
+	public static void mia() {
 		System.out.println("Miau Miau!");
 	}
 

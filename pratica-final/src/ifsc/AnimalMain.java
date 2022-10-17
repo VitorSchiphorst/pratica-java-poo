@@ -85,6 +85,7 @@ public class AnimalMain {
 			System.out.println("Comprimento = " + cachorro.getComp() + "cm");
 			System.out.println("Cor = " + cachorro.getCor());
 			System.out.println("Ecossistema = " + cachorro.getEcos());
+			Cachorro.late();
 		}
 		
 		for (Gato gato : gatos) {
@@ -96,7 +97,7 @@ public class AnimalMain {
 			System.out.println("Comprimento = " + gato.getComp() + "cm");
 			System.out.println("Cor = " + gato.getCor());
 			System.out.println("Ecossistema = " + gato.getEcos());
+			Gato.mia();
 		}
 	}
-
 }
